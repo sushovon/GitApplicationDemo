@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var data="Hello world"
+        var data="Hello world data"
         Log.d("TAG", "onCreate: "+data)
     }
 }
